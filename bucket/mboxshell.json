@@ -1,0 +1,24 @@
+{
+    "version": "1.2.2",
+    "description": "Fast terminal viewer for MBOX files of any size",
+    "homepage": "https://github.com/dcarrero/mboxshell",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/dcarrero/mboxshell/releases/download/v1.2.2/mboxshell-windows-x86_64.exe#/mboxshell.exe",
+            "hash": "0b5a2e81fb7eca66ac068ade1f20d4af01b0471ff4c0c85e3c96de6901f3e65a"
+        },
+        "arm64": {
+            "url": "https://github.com/dcarrero/mboxshell/releases/download/v1.2.2/mboxshell-windows-arm64.exe#/mboxshell.exe",
+            "hash": "bd79394cf4923b400b0fd3c2a03080960289f8906d854a95590ae7435ce963d8"
+        }
+    },
+    "bin": "mboxshell.exe",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": { "url": "https://github.com/dcarrero/mboxshell/releases/download/v$version/mboxshell-windows-x86_64.exe#/mboxshell.exe" },
+            "arm64": { "url": "https://github.com/dcarrero/mboxshell/releases/download/v$version/mboxshell-windows-arm64.exe#/mboxshell.exe" }
+        }
+    }
+}
