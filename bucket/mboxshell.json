@@ -6,11 +6,11 @@
     "architecture": {
         "64bit": {
             "url": "https://github.com/dcarrero/mboxshell/releases/download/v1.4.0/mboxshell-windows-x86_64.exe#/mboxshell.exe",
-            "hash": "55f65ba3d527efa42fee1e777c27259939d943de517f09574d4da0f712e3ed3f"
+            "hash": "1a7e2fde32310c5e4eea362f30f4906f7e3565e339f88022cf551701bf0c7f42"
         },
         "arm64": {
             "url": "https://github.com/dcarrero/mboxshell/releases/download/v1.4.0/mboxshell-windows-arm64.exe#/mboxshell.exe",
-            "hash": "766ee368dea4ebb3ffee95a052ffea89bda22d48d34f25fab2e05fae1ff7f877"
+            "hash": "5d729de0c8b90d607db74a52369049316fae90f092e3b1d83372af5bec1b9f39"
         }
     },
     "bin": "mboxshell.exe",
